@@ -1,8 +1,8 @@
-# Cryptography---Exp-10--Diffee-Hellman-Algorithm
-# AIM:
+# Diffee-Hellman-Algorithm
+## AIM:
 To implement the Diffee Hellman Algoirthm using C or Python.
 
-# DESIGN STEPS:
+## DESIGN STEPS:
 Step 1:
 Design the Diffie-Hellman key exchange algorithm.
 
@@ -18,7 +18,7 @@ After exchanging public keys, both compute a shared secret key using:
 ```
 Shared Secret = (Other's Public Key^Private Key) % p
 ```
-# PROGRAM:
+## PROGRAM:
 ```
 #include <stdio.h>
 #include <math.h>
@@ -73,7 +73,7 @@ int main() {
     return 0;
 }
 ```
-# OUTPUT:
+## OUTPUT:
 ![Screenshot 2024-10-13 164103](https://github.com/user-attachments/assets/008f9d19-b360-411b-abae-1f928238caec)
-# RESULT:
+## RESULT:
 Thus the implementation of Diffe Hellman Algorithm executed successfully.
